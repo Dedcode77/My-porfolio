@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.nav-link{
+    
+    
+      text-transform: uppercase ;
+     
+     font-size: 20px;
+
+position: relative;
+    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    border-bottom: 2px solid #FD820D;
+}
+.nav-link::after{
+    content: '';
+    transition: all 0.2s;
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #FD820D;
+    position: absolute;
+    bottom:0;   
+    left: 0;
+}
+.nav-link:hover::after{
+   
+    opacity: 1;
+    
+}
+body{
+    background-color: #ffffff;
+    
+    height: 200px;
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 10px;
+}
+
+.fa-envelope{
+    color: #FD820D ;
+}
+.fa-house{
+    color: #FD820D ;
+}
+.fa-location-dot{
+    color: #FD820D ;
+}
+.fa-mobile{
+    color: #FD820D ;
+}
+h2{
+    margin-top: 20%;
+}
+
+section{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+
+.section-intro{
+    text-align: center;
+    margin-bottom: 60px;
+    color: black;
+}
+.section-intro .hline{
+    width: 70px;
+    height: 2px;
+    margin: 16px auto 0 auto;
+    
+}
+.badge{
+    background:  #FD820D;
+    
+}
+.container{
+    color: black;
+}
+h2{
+    color:black;
+   
+}
+.card{
+    border-radius: 4px;
+   
+    box-shadow:#FD820D;
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px #FD820D, 0 4px 8px #FD820D;
+}
+progress{
+
+    width: 150px;
+    height: 15px;
+    border-radius: 10px ;
+}
+.card.w-75 {
+    margin: 22px;
+    box-shadow:#000;
+    transform:.3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer
+   
+}
+
+ h4{
+        color:#FD820D;
+}
+
+.bg-nav,.content-infos-perso,svg{
+    background-image:url('wallpapersden.com_ghostrunner-4k-gaming-2021_3840x2160.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+.content-infos-perso{
+    height: 40vh;
+    color: #ffffff;
+}
+.bloc-infos{
+    padding-top: 3rem;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 51px;
+    color: #FD820D;
+}
+.statistique{
+    background-image: url('Rec.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fa-edit{
+    color: #ffffff;
+}
+.projet{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 29px;
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ffffff;
+    margin: 0 10%;
+    height:80px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+
+
+
+
